@@ -83,6 +83,28 @@ the two **bookmarks** show decline of reccomendation from 2015 to 2023.
 ![](2015_rec.PNG)
 ![](2023_rec.PNG)
 
+**🌍 Purpose of travel**: Passengers mostly travel for couple leisure, with other purposes being business, family leisure, and solo travel. A clustered column chart was used to visualize this.
+
+**✈️ Seat types**: Most reviews come from passengers in the economy class (1310), followed by business class (720). Other seat types include premium economy and first class. Tree map was adopted for this visual.
+
+**🌏 Passenger origin**: the matrix table indicated that majority of the customers are predominantly from the United Kingdom (1486), followed by the United States (292).
+
+**📈 Satisfaction levels**: Ratings from 1 to 9 were used to measure satisfaction. Unfortunately, customers have consistently been dissatisfied over the eight-year period.
+
+A **Drill through filter** was used to navigate down to **customers' comments page** from the satisfation visuals.
+
+**📣 Popular complaints from customers include:**
+- Bad shoulder straps
+- Weak Wi-Fi connections
+- Limited food options
+- Sub-par customer service
+- Occasional server downtime leading to long queues
+- Narrow seats
+- Infotainment issues
+- Safety instructions only in English, despite diverse passengers
+- Bag handling causing significant delays
+
+
 
 
 
