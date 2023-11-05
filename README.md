@@ -86,6 +86,8 @@ For an appealing and relatable navigation, a black background was selected from 
 ## Dashboard
 ![](Dashboard_new.PNG)
 
+**you can interract with the report [here](https://app.powerbi.com/links/geJYK9NyUe?ctid=57c72ce6-9c62-4343-8935-5800b1f710ae&pbi_source=linkShare)
+
 ## Discussion
 👎 Alarming discovery: 64.53% of customers wouldn't recommend BA due to their experience, and this percentage has been declining over the years. In 2015, over 50% said they would recommend, but it has since dropped below 50% and got to a staggering . The Donut chart was used to display this with data labels that shows executives the percentages.
 the two **bookmarks** show decline of reccomendation from 2015 to 2023.
