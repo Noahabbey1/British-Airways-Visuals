@@ -1,1 +1,4 @@
-# British-Airways-Visuals
+# British-Airways-Analysi
+![](homepage_image.PNG)
+
+## Introduction 
