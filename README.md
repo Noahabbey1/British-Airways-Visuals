@@ -1,4 +1,4 @@
-# British-Airways-Analysi
+# British-Airways-Analysis
 ![](homepage_image.PNG)
 
 ## Introduction 
