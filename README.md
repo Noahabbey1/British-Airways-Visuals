@@ -39,3 +39,17 @@ The **import mode** was used to extract our dataset which was in a csv format, w
 ## Data Transformation
 To ensure data quality and also making sure our analysis addresses the business issues, we need to transform the data and perform wrangling and cleaning, irrelivant records or columns can also be removed to optimise the performance of the dashboard during a schedule refresh.
 ![](transform_data.PNG)
+The following transformations were applied
+1.	the data set was renamed 
+2.	Promote the headers
+![](promote_headers.PNG)  
+4.	Before changing the datatype of the  second column to date, we need to adjust each entry by removing the surfix after each days 1.e 1st becomes 1. This was done on the transform tab, same was done with “nd”,”rd” and “th”, although, there was a problem, which is, the month “August” was affected due to the “st” in front, therefore, I replaced “Augu” with “August” yet again.
+5.	We then  changed the data type to date and replaced error with null
+6.	There were also inconsistencies in the entries under the “route” column such as some airports being abbreviated and others were not, so to maintain consistency, the abbreviated values were replaced with their actual airport names, as you can see from the picture, LHR was replaced with Heathrow.
+7.	We also realised that the column “country” had some incorrect entries due to customers input of unrelated answer to the column, I realised that the length of those wrong entries were higher than most countries name in the column, so I had to extract the length of the “trimmed” values from the “add column” tab and subsequently did a conditional column called “new_country” with the condition that any length greater than 25 should be empty while the values under the column “Country” whose length is lesser or equal should be left untouched.
+8.	We also observed that the seat_type had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
+9.	The same applies to the “recommend” column which is asking customers if they will recommend BA (From the data dictionary). A conditional column was used again to make invalid columns blank.
+10.	The satisfaction level was created from the star column which ranged from 1-9, this was then categorised from very dissatisfied to very satisfied.
+11.	The route was also amended to remove invalid entries.
+
+
