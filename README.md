@@ -78,6 +78,9 @@ The DAX expression was written as AVG star rating = AVERAGEA(British_Airway_Revi
 
 For an appealing and relatable navigation, a black background was selected from the **canvas background** followed by rectangular shapes of proportionate sizes where each visuals will fit in.
 
+## Dashboard
+![](Dashboard_new.PNG)
+
 ## Discussion
 👎 Alarming discovery: 64.53% of customers wouldn't recommend BA due to their experience, and this percentage has been declining over the years. In 2015, over 50% said they would recommend, but it has since dropped below 50% and got to a staggering . The Donut chart was used to display this with data labels that shows executives the percentages.
 the two **bookmarks** show decline of reccomendation from 2015 to 2023.
@@ -104,6 +107,20 @@ A **Drill through filter** was used to navigate down to **customers' comments pa
 - Infotainment issues
 - Safety instructions only in English, despite diverse passengers
 - Bag handling causing significant delays
+
+## 🚀 Recommendations:
+
+**Now, the key question is, "What can British Airways do to improve?"**
+1. Customer Engagement Team: Establish a dedicated team focused on engaging with customers, addressing their concerns promptly, and ensuring a seamless experience.
+
+2. Near Real-Time Feedback Mechanism: Introduce a feedback mechanism integrated with infotainment systems, allowing passengers to share their experiences and grievances during their journey.
+
+3. Root Cause Analysis and Segmentation: Dig deeper into customer comments to identify root causes of recurring issues. Segment comments to pinpoint specific pain points across different passenger groups.
+
+4. Continuous Improvement Culture: Foster a culture of continuous improvement within the organization. Encourage employees at all levels to contribute ideas and solutions for enhancing customer satisfaction.
+
+5. Data Analysis Integration: Make data analysis a routine part of operations. Use data proactively to identify emerging issues and address them before they escalate.
+
 
 
 
