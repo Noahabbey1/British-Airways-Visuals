@@ -65,5 +65,24 @@ This was done on the **transform tab**, thesame step was replicated with **nd**,
 9.	The **satisfaction level** was created from the **stars** column which ranged from 1-9, this was then categorised from **very dissatisfied to very satisfied**.
 ![](satisfaction_level.png)
 
+## Analysis and Visualization
+
+Data Analysis Expressions (DAX) functions were used to perform the following analyses:
+
+### Calculating the total number of valid customer reviews.
+**Total Customer Review = COUNTA(British_Airway_Review[reviews])**
+
+### Determining the average star rating.
+The DAX expression was written; **AVG star rating = AVERAGEA(British_Airway_Review[stars])** then the **guage visual** was used to display the rating, the **guage** was the preferred visual because it helps in displaying the **minimum and maximum values** with the average value which is **4.29**. 
+
+For an appealing and relatable navigation, a black background was selected from the **canvas background** followed by rectangular shapes of proportionate sizes where each visuals will fit in.
+
+## Discussion
+👎 Alarming discovery: 64.53% of customers wouldn't recommend BA due to their experience, and this percentage has been declining over the years. In 2015, over 50% said they would recommend, but it has since dropped below 50% and got to a staggering . The Donut chart was used to display this with data labels that shows executives the percentages.
+the two **bookmarks** show decline of reccomendation from 2015 to 2023.
+![](2015_rec.PNG)
+![](2023_rec.PNG)
+
+
 
 
