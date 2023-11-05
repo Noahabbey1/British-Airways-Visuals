@@ -93,7 +93,7 @@ the two **bookmarks** show decline of reccomendation from 2015 to 2023.
 **📈 Satisfaction levels**: Ratings from 1 to 9 were used to measure satisfaction. Unfortunately, customers have consistently been dissatisfied over the eight-year period.
 
 A **Drill through filter** was used to navigate down to **customers' comments page** from the satisfation visuals.
-
+![](drill_through.png)
 **📣 Popular complaints from customers include:**
 - Bad shoulder straps
 - Weak Wi-Fi connections
