@@ -48,9 +48,11 @@ The following transformations were applied
 This was done on the **transform tab**, thesame step was replicated with **nd**,**rd** and **th**. Although, there was a problem with the month **August** that was affected due to the **st** in front, therefore, I replaced **Augu** with **August** yet again.
 ![](replace_value.PNG)
 
-5.	We then  changed the data type to date and replaced error with null
+4.	We then  changed the data type to date and replaced error with null. all these happened on the **Transform** Tab and clicking on **replace values/ errors**
 ![](replace_null.PNG)
-7.	There were also inconsistencies in the entries under the “route” column such as some airports being abbreviated and others were not, so to maintain consistency, the abbreviated values were replaced with their actual airport names, as you can see from the picture, LHR was replaced with Heathrow.
+
+5.	There were also inconsistencies in the entries under the **route** column such as some **airports** being abbreviated and others were not, so to maintain **consistency**, the abbreviated values were replaced with their actual airport names, as you can see from the picture, **LHR**was replaced with **Heathrow** and others.
+![](replaced_route_names.png)
 8.	We also realised that the column “country” had some incorrect entries due to customers input of unrelated answer to the column, I realised that the length of those wrong entries were higher than most countries name in the column, so I had to extract the length of the “trimmed” values from the “add column” tab and subsequently did a conditional column called “new_country” with the condition that any length greater than 25 should be empty while the values under the column “Country” whose length is lesser or equal should be left untouched.
 9.	We also observed that the seat_type had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
 10.	The same applies to the “recommend” column which is asking customers if they will recommend BA (From the data dictionary). A conditional column was used again to make invalid columns blank.
