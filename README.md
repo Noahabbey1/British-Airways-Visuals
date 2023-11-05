@@ -135,8 +135,8 @@ A **Drill through filter** was used to navigate down to **customers' comments pa
 
 5. Data Analysis Integration: Make data analysis a routine part of operations. Use data proactively to identify emerging issues and address them before they escalate.
 
+![](thank_you.jpg)
 
-![](thank you.jpg)
 
 
 
