@@ -59,9 +59,10 @@ This was done on the **transform tab**, the same step was replicated with **nd**
 ![](filter_country_new.PNG)
 
 7.	We also observed that the **seat_type** had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
+
 column showing invalid entries      |    conditional column
 :----------------------------------:|:----------------------------:
-![](invalid_seattype.PNG)              ![](invalid_seat_type.png)
+![](invalid_seattype.PNG)           |  ![](invalid_seat_type.png)
 
 
 8.	The same applies to the **recommend** column which is asking customers if they will recommend BA **(From the data dictionary)**. A conditional column was used again to make invalid columns blank.
