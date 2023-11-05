@@ -54,13 +54,16 @@ This was done on the **transform tab**, thesame step was replicated with **nd**,
 5.	There were also inconsistencies in the entries under the **route** column such as some **airports** being abbreviated and others were not, so to maintain **consistency**, the abbreviated values were replaced with their actual airport names, as you can see from the picture, **LHR**was replaced with **Heathrow** and others.
 ![](replace_LHR.PNG)
 
-6.	We also realised that the column **country** had some incorrect entries due to customers input of unrelated answer to the column, I realised that the **length of those wrong entries** were higher than most **countries name** in the column, so I had to get the **length** of the **trimmed values** from the **add column tab** and subsequently added a **conditional column** called **new_country** on the condition that any length greater than 25 should be empty while the values whose length are lesser or equal should be left untouched.
+6.	We also realised that the column **country** had some incorrect entries due to customers input of unrelated answer to the column, I realised that the **length of those wrong entries** were higher than most **countries name** in the column, so I had to get the **length** of the **trimmed values** from the **add column tab** and subsequently added a **conditional column** called **new_country** on the condition that any length greater than 25 should be empty while the values whose length are lesser or equal should be left untouched. Some **dates value** were also removed
 ![](filter_country_new.PNG)
-9.	We also observed that the **seat_type** had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
+7.	We also observed that the **seat_type** had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
 ![](invalid_seat_type.png)
 ![](invalid_seattype.PNG)
-11.	The same applies to the “recommend” column which is asking customers if they will recommend BA (From the data dictionary). A conditional column was used again to make invalid columns blank.
-12.	The satisfaction level was created from the star column which ranged from 1-9, this was then categorised from very dissatisfied to very satisfied.
-13.	The route was also amended to remove invalid entries.
+
+8.	The same applies to the **recommend** column which is asking customers if they will recommend BA **(From the data dictionary)**. A conditional column was used again to make invalid columns blank.
+   
+9.	The **satisfaction level** was created from the **stars** column which ranged from 1-9, this was then categorised from **very dissatisfied to very satisfied**.
+![](satisfaction_level.png)
+
 
 
