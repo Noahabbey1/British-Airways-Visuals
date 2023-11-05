@@ -62,7 +62,7 @@ This was done on the **transform tab**, the same step was replicated with **nd**
 
 column showing invalid entries      |    conditional column
 :----------------------------------:|:----------------------------:
-![](invalid_seattype.PNG)           |  ![](invalid_seat_type.png)
+  ![](invalid_seat_type.png)        |  ![](invalid_seattype.PNG)             
 
 
 8.	The same applies to the **recommend** column which is asking customers if they will recommend BA **(From the data dictionary)**. A conditional column was used again to make invalid columns blank.
