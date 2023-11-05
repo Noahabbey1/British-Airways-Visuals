@@ -67,13 +67,14 @@ This was done on the **transform tab**, thesame step was replicated with **nd**,
 
 ## Analysis and Visualization
 
-Data Analysis Expressions (DAX) functions were used to perform the following analyses:
+Data Analysis Expressions (DAX) functions were used to perform the following analysis:
 
-### Calculating the total number of valid customer reviews.
-**Total Customer Review = COUNTA(British_Airway_Review[reviews])**
+**Calculating the total number of valid customer reviews.**
 
-### Determining the average star rating.
-The DAX expression was written; **AVG star rating = AVERAGEA(British_Airway_Review[stars])** then the **guage visual** was used to display the rating, the **guage** was the preferred visual because it helps in displaying the **minimum and maximum values** with the average value which is **4.29**. 
+Total Customer Review = COUNTA(British_Airway_Review[reviews])
+
+**Determining the average star rating.**
+The DAX expression was written as AVG star rating = AVERAGEA(British_Airway_Review[stars]) then the **guage visual** was used to display the rating, the **guage** was the preferred visual because it helps in displaying the **minimum and maximum values** with the average value which is **4.29**. 
 
 For an appealing and relatable navigation, a black background was selected from the **canvas background** followed by rectangular shapes of proportionate sizes where each visuals will fit in.
 
