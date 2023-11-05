@@ -42,8 +42,11 @@ To ensure data quality and also making sure our analysis addresses the business 
 The following transformations were applied
 1.	the data set was renamed 
 2.	Promote the headers
-![](promote_headers.PNG)  
-4.	Before changing the datatype of the  second column to date, we need to adjust each entry by removing the surfix after each days 1.e 1st becomes 1. This was done on the transform tab, same was done with “nd”,”rd” and “th”, although, there was a problem, which is, the month “August” was affected due to the “st” in front, therefore, I replaced “Augu” with “August” yet again.
+![](promote_headers.png)
+
+3.	To neable us carry out trend analysis, we also needed to change the date format but before changing the datatype, we need to adjust each entry by removing the surfix after each days i.e 1st becomes 1.
+This was done on the **transform tab**, thesame step was replicated with **nd**,**rd** and **th**. Although, there was a problem with the month **August** that was affected due to the **st** in front, therefore, I replaced **Augu** with **August** yet again.
+![](replace_value.PNG)
 5.	We then  changed the data type to date and replaced error with null
 6.	There were also inconsistencies in the entries under the “route” column such as some airports being abbreviated and others were not, so to maintain consistency, the abbreviated values were replaced with their actual airport names, as you can see from the picture, LHR was replaced with Heathrow.
 7.	We also realised that the column “country” had some incorrect entries due to customers input of unrelated answer to the column, I realised that the length of those wrong entries were higher than most countries name in the column, so I had to extract the length of the “trimmed” values from the “add column” tab and subsequently did a conditional column called “new_country” with the condition that any length greater than 25 should be empty while the values under the column “Country” whose length is lesser or equal should be left untouched.
