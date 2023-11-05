@@ -58,6 +58,7 @@ This was done on the **transform tab**, thesame step was replicated with **nd**,
 ![](filter_country_new.PNG)
 9.	We also observed that the **seat_type** had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
 ![](invalid_seat_type.png)
+![](invalid_seattype.PNG)
 11.	The same applies to the “recommend” column which is asking customers if they will recommend BA (From the data dictionary). A conditional column was used again to make invalid columns blank.
 12.	The satisfaction level was created from the star column which ranged from 1-9, this was then categorised from very dissatisfied to very satisfied.
 13.	The route was also amended to remove invalid entries.
