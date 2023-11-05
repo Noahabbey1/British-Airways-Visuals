@@ -4,7 +4,8 @@
 ## Introduction 
 British Airways, a globally renowned airline, has a long history of excellence and reliability, making it a preferred choice for travelers worldwide. The airline's commitment to exceptional customer experiences is a key element of its success. In this document, we will explore how data analysis can help British Airways improve customer satisfaction and retention rates.
 
-**_Disclaimer_** : _All datasets and reports do not represent any company, institution or country, but just a dummy dataset to demonstrate the capabilities of PowerBI
+**_Disclaimer_** : _All datasets and reports do not represent any company, institution or country, but just a dummy dataset to demonstrate the capabilities of PowerBI_
+
 ## Objectives
 
 British Airways aims to enhance customer satisfaction and retention. The airline seeks to identify the most critical factors influencing customer satisfaction and implement improvements to deliver a better customer experience.
@@ -89,7 +90,9 @@ the two **bookmarks** show decline of reccomendation from 2015 to 2023.
 
 **🌍 Purpose of travel**: Passengers mostly travel for couple leisure, with other purposes being business, family leisure, and solo travel. A clustered column chart was used to visualize this.
 
-**✈️ Seat types**: Most reviews come from passengers in the economy class (1310), followed by business class (720). Other seat types include premium economy and first class. Tree map was adopted for this visual.
+**✈️ Seat types**: Most reviews come from passengers in the economy class (1310), followed by business class (720). Other seat types include premium economy and first class. Tree map was adopted for this visual. The **reccomended ratio was thesame for all seat types as all four will mostly not reccomend BA**
+
+**✈️ Flight route**: the highest flight route was from Denver to London Heathrow with a total flight of 245 trips, although there was not a significant margin between those routes as seen in the dashboard. 
 
 **🌏 Passenger origin**: the matrix table indicated that majority of the customers are predominantly from the United Kingdom (1486), followed by the United States (292).
 
