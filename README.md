@@ -38,25 +38,26 @@ This documentation demonstrates key data analysis skills, including
 The **import mode** was used to extract our dataset which was in a csv format, we selected the **text/csv** option under the **get data** menu in the home tab. The CSV file was then located and chosen.
 
 ## Data Transformation
-To ensure data quality and also making sure our analysis addresses the business issues, we need to transform the data and perform wrangling and cleaning, irrelivant records or columns can also be removed to optimise the performance of the dashboard during a schedule refresh.
+To ensure data quality and also making sure our analysis addresses the business issues, we need to transform the data and perform **data wrangling** , irrelivant records or columns can also be removed to optimise the performance of the dashboard during a schedule refresh.
 ![](transform_data.PNG)
 The following transformations were applied
 1.	the data set was renamed 
 2.	Promote the headers
 ![](promote_headers.png)
 
-3.	To neable us carry out trend analysis, we also needed to change the date format but before changing the datatype, we need to adjust each entry by removing the surfix after each days i.e 1st becomes 1.
-This was done on the **transform tab**, thesame step was replicated with **nd**,**rd** and **th**. Although, there was a problem with the month **August** that was affected due to the **st** in front, therefore, I replaced **Augu** with **August** yet again.
+3.	To enable us carry out trend analysis, we also needed to change the date format but before changing the datatype, we needed to adjust each entry by removing the suffixes after each days i.e 1st becomes 1.
+This was done on the **transform tab**, the same step was replicated with **nd**,**rd** and **th**. Although, there was a problem with the entry **August**, it was affected due to the **st** in front of it, therefore, I replaced **Augu** with **August** yet again.
 ![](replace_value.PNG)
 
-4.	We then  changed the data type to date and replaced error with null. all these happened on the **Transform** Tab and clicking on **replace values/ errors**
+4.	I then changed the data type to date and replaced error with null. All these happened on the **Transform** Tab and clicking on **replace values/ errors**
 ![](replace_null.PNG)
 
 5.	There were also inconsistencies in the entries under the **route** column such as some **airports** being abbreviated and others were not, so to maintain **consistency**, the abbreviated values were replaced with their actual airport names, as you can see from the picture, **LHR**was replaced with **Heathrow** and others.
 ![](replace_LHR.PNG)
 
-6.	We also realised that the column **country** had some incorrect entries due to customers input of unrelated answer to the column, I realised that the **length of those wrong entries** were higher than most **countries name** in the column, so I had to get the **length** of the **trimmed values** from the **add column tab** and subsequently added a **conditional column** called **new_country** on the condition that any length greater than 25 should be empty while the values whose length are lesser or equal should be left untouched. Some **dates value** were also removed
+6.	We also realised that the column **country** had some incorrect entries due to customers input of unrelated answer to the column, I realised that the **length of those wrong entries** were higher than most **countries name** in the column, so I had to get the **length** of the **trimmed values** from the **add column tab** and subsequently added a **conditional column** called **new_country** on the condition that any length greater than 25 should be empty while the values whose length are lesser or equal should be left untouched. Some **date value** were also removed.
 ![](filter_country_new.PNG)
+
 7.	We also observed that the **seat_type** had invalid entries as well, so we adopted the conditional column to make the invalid entries blank as seen in the screen shot.
 ![](invalid_seat_type.png)
 ![](invalid_seattype.PNG)
